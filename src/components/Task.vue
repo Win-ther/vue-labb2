@@ -6,11 +6,7 @@ const props = defineProps({
 });
 
 const toggleDone = () =>{
-  if (props.task.done === true) {
-    props.task.done = false;
-  }else{
-    props.task.done = true;
-  }
+  props.task.done = props.task.done !== true;
 }
 </script>
 
@@ -27,14 +23,14 @@ const toggleDone = () =>{
 .done{
   background-color: rgb(220 252 231);
 }
-.done h3, p{
+.done h3, .done p{
   text-decoration: line-through;
 }
 section {
   display: flex;
   flex-direction: column;
   width: 1fr;
-  height: 250px;
+  height: 300px;
   background-color: rgb(255 247 237);
   box-shadow: 0 4px 4px 0 rgb(254 215 170), 0 6px 10px 0 rgb(254 215 170);
   margin: 25px;
