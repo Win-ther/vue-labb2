@@ -6,6 +6,7 @@
   <main>
     <h1><a href="/">Work Schedule</a></h1>
     <div class="links">
+      <h3><a href="/">Home</a></h3>
       <h3><a href="/work">Schedule</a></h3>
       <h3><a href="/work/add">Add Task</a></h3>
     </div>
@@ -39,7 +40,6 @@ h3 a {
   padding: 10px;
   border: 2px rgb(22 163 74) solid;
   border-radius: 7px;
-
 }
 
 h3 a:hover {

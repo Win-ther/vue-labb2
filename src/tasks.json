@@ -1,0 +1,51 @@
+[
+  {
+    "id": "0",
+    "name": "Create Json for Tasks",
+    "description": "Create a Json-file for dummy-data that I can use in my Application",
+    "completedBy": "2024-09-25",
+    "done": "false"
+  },
+  {
+    "id": "1",
+    "name": "Endpoint for Schedule",
+    "description": "Create a way to only see all the tasks and not only the home page",
+    "completedBy": "2024-09-25",
+    "done": "false"
+  },
+  {
+    "id": "2",
+    "name": "Endpoint for Add Task",
+    "description": "Create a way to add Tasks",
+    "completedBy": "2024-09-25",
+    "done": "false"
+  },
+  {
+    "id": "3",
+    "name": "See separate tasks",
+    "description": "Create a way to see a task with a specific id",
+    "completedBy": "2024-09-25",
+    "done": "false"
+  },
+  {
+    "id": "4",
+    "name": "Create Component for Task",
+    "description": "Create a component to be reused for every Task, that will be used by the Tasks component",
+    "completedBy": "2024-09-14",
+    "done": "false"
+  },
+  {
+    "id": "5",
+    "name": "A way to remove/mark task as completed",
+    "description": "Create a function to remove tasks/mark them as completed, maybe create a way to only view completed tasks",
+    "completedBy": "2024-09-25",
+    "done": "false"
+  },
+  {
+    "id": "6",
+    "name": "Create Component for Footer",
+    "description": "Create a component for a footer, like NavBar",
+    "completedBy": "2024-09-25",
+    "done": "false"
+  }
+]
