@@ -1,14 +1,14 @@
 <script setup>
-
+import {RouterLink} from 'vue-router';
 </script>
 
 <template>
   <main>
-    <h1><a href="/">Work Schedule</a></h1>
+    <h1><RouterLink to="/">Work Schedule</RouterLink></h1>
     <div class="links">
-      <h3><a href="/">Home</a></h3>
-      <h3><a href="/work">Schedule</a></h3>
-      <h3><a href="/work/add">Add Task</a></h3>
+      <h3><RouterLink to="/">Home</RouterLink></h3>
+      <h3><RouterLink to="/work">Work</RouterLink></h3>
+      <h3><RouterLink to="/work/add">Add Work</RouterLink></h3>
     </div>
   </main>
 </template>

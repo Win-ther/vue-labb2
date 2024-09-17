@@ -1,51 +1,81 @@
-[
-  {
-    "id": "0",
-    "name": "Create Json for Tasks",
-    "description": "Create a Json-file for dummy-data that I can use in my Application",
-    "completedBy": "2024-09-25",
-    "done": "false"
-  },
-  {
-    "id": "1",
-    "name": "Endpoint for Schedule",
-    "description": "Create a way to only see all the tasks and not only the home page",
-    "completedBy": "2024-09-25",
-    "done": "false"
-  },
-  {
-    "id": "2",
-    "name": "Endpoint for Add Task",
-    "description": "Create a way to add Tasks",
-    "completedBy": "2024-09-25",
-    "done": "false"
-  },
-  {
-    "id": "3",
-    "name": "See separate tasks",
-    "description": "Create a way to see a task with a specific id",
-    "completedBy": "2024-09-25",
-    "done": "false"
-  },
-  {
-    "id": "4",
-    "name": "Create Component for Task",
-    "description": "Create a component to be reused for every Task, that will be used by the Tasks component",
-    "completedBy": "2024-09-14",
-    "done": "false"
-  },
-  {
-    "id": "5",
-    "name": "A way to remove/mark task as completed",
-    "description": "Create a function to remove tasks/mark them as completed, maybe create a way to only view completed tasks",
-    "completedBy": "2024-09-25",
-    "done": "false"
-  },
-  {
-    "id": "6",
-    "name": "Create Component for Footer",
-    "description": "Create a component for a footer, like NavBar",
-    "completedBy": "2024-09-25",
-    "done": "false"
-  }
-]
+{
+  "tasks": [
+    {
+      "id": "0",
+      "name": "Validation for forms",
+      "description": "Ask Seph about validation, because Vue escapes all potentially harmful characters. What is the need to actually check these ourselves? And what else do I need to validate? \n\nExample: <script>alert(\"Boo!\")</script>",
+      "completedBy": "2024-09-25",
+      "done": false
+    },
+    {
+      "id": "1",
+      "name": "Endpoint for Schedule",
+      "description": "Create a way to only see all the tasks and not only the home page",
+      "completedBy": "2024-09-25",
+      "done": true
+    },
+    {
+      "id": "2",
+      "name": "Endpoint for Add Task",
+      "description": "Create a way to add Tasks",
+      "completedBy": "2024-09-25",
+      "done": true
+    },
+    {
+      "id": "3",
+      "name": "See separate tasks",
+      "description": "Create a way to see a task with a specific id",
+      "completedBy": "2024-09-25",
+      "done": true
+    },
+    {
+      "id": "4",
+      "name": "Create Component for Task",
+      "description": "Create a component to be reused for every Task, that will be used by the Tasks component",
+      "completedBy": "2024-09-14",
+      "done": true
+    },
+    {
+      "id": "5",
+      "name": "A way to remove/mark task as completed",
+      "description": "Create a function to remove tasks/mark them as completed, maybe create a way to only view completed tasks",
+      "completedBy": "2024-09-25",
+      "done": true
+    },
+    {
+      "id": "6",
+      "name": "Create Component for Footer",
+      "description": "Create a component for a footer, like NavBar",
+      "completedBy": "2024-09-25",
+      "done": true
+    },
+    {
+      "id": "13b8",
+      "name": "Pushing after adding",
+      "description": "Add correct code to push user to new added task when task is added.",
+      "completedBy": "2024-09-19",
+      "done": true
+    },
+    {
+      "id": "4cb2",
+      "name": "Add name to Home",
+      "description": "Add user input for name so that it does not say unknown and instead says the users inputted name.",
+      "completedBy": "2024-09-18",
+      "done": false
+    },
+    {
+      "id": "3f07",
+      "name": "Anpassning mobil&desktop",
+      "description": "Anpassa sidan för mobil och desktop/platta, genom en mediaquery för mobil och desktop/platta.",
+      "completedBy": "2024-09-29",
+      "done": false
+    },
+    {
+      "id": "dc3d",
+      "name": "Beskrivning av funktionalitet",
+      "description": "Gör en beskrivning av egen funktionalitet jag har lagt till med skärmdumpar och kort förklaring av vad koden gör. Jag ska också ge minst ett exempel på något i mitt program som jag hade velat utveckla som en förbättring av programmet. Lämnas in skriftligt som t.ex word-fil tillsammans med källkod till hemsidan.",
+      "completedBy": "2024-09-29",
+      "done": false
+    }
+  ]
+}

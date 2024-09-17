@@ -1,11 +1,11 @@
 <script setup>
 import NavBar from "@/components/NavBar.vue";
-import Hero from "@/components/Hero.vue";
-import Tasks from "@/components/Tasks.vue";
+import {RouterView} from "vue-router";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
   <NavBar/>
-  <Hero/>
-  <Tasks/>
+  <RouterView/>
+  <Footer/>
 </template>
