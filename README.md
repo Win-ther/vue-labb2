@@ -1,29 +1,13 @@
 # vue-labb2
 
-This template should help get you started developing with Vue 3 in Vite.
+Laboration för vue
 
-## Recommended IDE Setup
+Detta projektet använder sig av en mockad backend, JsonServer.
+För att komma igång och testa projektet så kör nedan kommandon i varsin terminal i projektet.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+``
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+``
+``
+npm run server
+``
