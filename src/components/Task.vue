@@ -5,13 +5,9 @@ import {RouterLink} from "vue-router";
 const props = defineProps({
   task: Object
 });
-const classObject = computed(() => ({
-  done: props.task.done === true,
-  // red: props.task.done === false,
-}));
 
 const toggleDone = async () => {
-  props.task.done = props.task.done !== true;
+  props.task.done = !props.task.done;
   await fetch(`http://localhost:5000/tasks/${props.task.id}`, {
     method: 'PUT',
     body: JSON.stringify(props.task)
@@ -21,7 +17,7 @@ const toggleDone = async () => {
 </script>
 
 <template>
-  <section :class="classObject" @click="toggleDone">
+  <section :class="{done:props.task.done}" @click="toggleDone">
     <h3> {{ props.task.name }}</h3>
     <p v-if="props.task.description.length > 60"> {{ props.task.description.substring(0, 60) }}...</p>
     <p v-else> {{ props.task.description }}</p>
@@ -32,17 +28,12 @@ const toggleDone = async () => {
 </template>
 
 <style scoped>
-.red{
-  border: 1px solid red;
-}
 .done {
   background-color: rgb(220 252 231);
 }
-
 .done h3, .done p {
   text-decoration: line-through;
 }
-
 section {
   display: flex;
   flex-direction: column;

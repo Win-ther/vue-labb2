@@ -2,11 +2,8 @@
 import {computed, onMounted, reactive} from "vue";
 
 const state = reactive({
-  user: {
-    name: 'default'
-  }
+  user: {},
 })
-
 const isDefaultName = (computed(() => {
   const name = ""+state.user.name;
   return name.toLowerCase() === "default" || name.trim() === "" || name.toLowerCase() === "unknown";

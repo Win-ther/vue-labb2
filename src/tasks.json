@@ -5,7 +5,7 @@
       "name": "Validation for forms",
       "description": "Ask Seph about validation, because Vue escapes all potentially harmful characters. What is the need to actually check these ourselves? And what else do I need to validate? \n\nExample: <script>alert(\"Boo!\")</script>",
       "completedBy": "2024-09-25",
-      "done": false
+      "done": true
     },
     {
       "id": "1",
@@ -75,6 +75,27 @@
       "name": "Beskrivning av funktionalitet",
       "description": "Gör en beskrivning av egen funktionalitet jag har lagt till med skärmdumpar och kort förklaring av vad koden gör. Jag ska också ge minst ett exempel på något i mitt program som jag hade velat utveckla som en förbättring av programmet. Lämnas in skriftligt som t.ex word-fil tillsammans med källkod till hemsidan.",
       "completedBy": "2024-09-29",
+      "done": false
+    },
+    {
+      "id": "a727",
+      "name": "Validation",
+      "description": "<script>alert(\"Boo!\")</script>",
+      "completedBy": "2024-09-19",
+      "done": true
+    },
+    {
+      "id": "ccad",
+      "name": "Gör video för inlämning.",
+      "description": "Gör en video för inlämning av laborationen för Vue.",
+      "completedBy": "2024-09-29",
+      "done": false
+    },
+    {
+      "id": "90f9",
+      "name": "Gå igenom all kod.",
+      "description": "Gå igenom all kod så att jag inte har någon redundant kod i html, css eller js/vue.",
+      "completedBy": "2024-09-28",
       "done": false
     }
   ],
