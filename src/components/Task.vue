@@ -111,10 +111,9 @@ a:hover, a:active {
     height: 360px;
   }
 }
-
-@media (max-width: 720px) {
+@media (max-width: 700px) {
   section {
-    height: 450px;
+    height: 300px;
   }
 }
 </style>

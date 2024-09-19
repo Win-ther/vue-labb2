@@ -90,7 +90,9 @@ section {
   color: rgb(124 45 18);
   background-color: rgb(255 247 237);
 }
-
+textarea{
+  resize: none;
+}
 input {
   padding: 5px 10px 5px 10px;
   border-radius: 7px;
@@ -119,5 +121,10 @@ button {
 
 button:hover {
   background-color: rgb(74 222 128);
+}
+@media (max-width: 700px){
+  textarea {
+    max-width: 275px;
+  }
 }
 </style>

@@ -124,4 +124,9 @@ button {
 button:hover {
   background-color: rgb(74 222 128);
 }
+@media (max-width: 700px){
+  textarea {
+    max-width: 275px;
+  }
+}
 </style>

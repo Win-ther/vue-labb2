@@ -70,8 +70,10 @@ main {
       "header header header header header header header header aside"
       "article article article article article article article article aside"
       "article article article article article article article article aside"
+      "article article article article article article article article aside"
+      "article article article article article article article article aside"
+      "article article article article article article article article aside"
       "article article article article article article article article aside";
-  flex-direction: column;
   min-height: 733px;
   background-color: rgb(255 237 213);
   align-items: center;
@@ -94,8 +96,8 @@ p {
 .box {
   display: flex;
   box-shadow: 0 4px 4px 0 rgb(254 215 170), 0 6px 10px 0 rgb(254 215 170);
-  margin: 25px;
-  padding: 0 20px 20px 20px;;
+  margin: 20px;
+  padding: 0 20px 20px 20px;
   border-radius: 7px;
   color: rgb(124 45 18);
   border: 1px solid rgb(124 45 18);
@@ -126,6 +128,7 @@ aside {
   align-self: stretch;
   justify-self: center;
   background-color: rgb(255 247 237);
+  min-width: 209px;
 }
 
 button {
@@ -178,5 +181,46 @@ a, a:visited{
 
 .updateButton:hover {
   background-color: rgb(74 222 128);
+}
+
+@media (max-width: 700px){
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-content: center;
+    align-self: stretch;
+  }
+  a{
+    text-align: center;
+  }
+  aside{
+    width: 70%;
+  }
+  main {
+    grid-template-areas:
+      "header header header header header header header header header"
+      "article article article article article article article article article"
+      "article article article article article article article article article"
+      "article article article article article article article article article"
+      "article article article article article article article article article"
+      "article article article article article article article article article"
+      "aside aside aside aside aside aside aside aside aside";
+  }
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+@media (max-width: 400px){
+  h1{
+    font-size: 30px;
+  }
+  p{
+    font-size: 15px;
+  }
 }
 </style>

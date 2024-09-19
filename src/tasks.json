@@ -61,14 +61,14 @@
       "name": "Add name to Home",
       "description": "Add user input for name so that it does not say unknown and instead says the users inputted name.",
       "completedBy": "2024-09-18",
-      "done": false
+      "done": true
     },
     {
       "id": "3f07",
       "name": "Anpassning mobil&desktop",
       "description": "Anpassa sidan för mobil och desktop/platta, genom en mediaquery för mobil och desktop/platta.",
       "completedBy": "2024-09-29",
-      "done": false
+      "done": true
     },
     {
       "id": "dc3d",
@@ -77,5 +77,8 @@
       "completedBy": "2024-09-29",
       "done": false
     }
-  ]
+  ],
+  "user": {
+    "name": "Mr. Roger-Dodger StrassHausen-Lerwick"
+  }
 }

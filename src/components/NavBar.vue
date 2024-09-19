@@ -21,12 +21,9 @@ main {
   border-bottom: 2px rgb(22 163 74) solid;
   background-color: rgb(74 222 128);
 }
-main{
-
-}
 .links {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
   gap: 20px;
   margin-right: 20px;
@@ -50,5 +47,14 @@ a, a:visited {
   text-decoration: none;
   color: rgb(22 101 52);
 }
-
+@media (max-width: 700px) {
+  main{
+    flex-direction: column;
+  }
+  .links{
+    gap:10px;
+    margin-right: 0;
+  }
+  h3 a{ padding: 10px 20px;}
+}
 </style>

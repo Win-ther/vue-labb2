@@ -141,4 +141,18 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 40%;
 }
+@media (max-width: 700px) {
+  .grid{
+    display: flex;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 40px;
+  }
+}
+@media (max-width: 420px) {
+  h1{
+    font-size: 30px;
+  }
+}
 </style>
