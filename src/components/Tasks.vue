@@ -5,11 +5,12 @@ import {RouterLink} from "vue-router";
 
 const props = defineProps({
   limit: Number,
-})
+});
 const state = reactive({
   tasks: [],
   showCompleted: false,
 });
+
 const showTasks = computed(() => {
   let filteredTasks = state.tasks.sort((a, b) => {
 

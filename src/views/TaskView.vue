@@ -9,7 +9,7 @@ const state = reactive({
   task: {}
 });
 const toggleDone = async () => {
-  state.task.done = state.task.done !== true;
+  state.task.done = !state.task.done;
   await fetch(`http://localhost:5000/tasks/${taskId}`, {
     method: 'PUT',
     body: JSON.stringify(state.task)
