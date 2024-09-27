@@ -9,10 +9,10 @@
     },
     {
       "id": "1",
-      "name": "Endpoint for Schedule",
-      "description": "Create a way to only see all the tasks and not only the home page",
-      "completedBy": "2024-09-25",
-      "done": false
+      "name": "test",
+      "description": "test description",
+      "completedBy": "2024-09-26",
+      "done": true
     },
     {
       "id": "2",
@@ -100,6 +100,6 @@
     }
   ],
   "user": {
-    "name": "Emi"
+    "name": "default"
   }
 }
