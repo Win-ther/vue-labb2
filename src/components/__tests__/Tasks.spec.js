@@ -2,6 +2,7 @@ import {mount} from "@vue/test-utils";
 import {describe, it, expect, beforeAll, afterEach, afterAll, vi, beforeEach} from "vitest";
 import {setupServer} from "msw/node";
 import {http, HttpResponse} from "msw";
+import { flushPromises } from '@vue/test-utils';
 
 import Tasks from "../Tasks.vue";
 
@@ -40,14 +41,17 @@ describe("Tasks.vue", () => {
     beforeAll(() => server.listen({onUnhandledRequest: 'error'}));
     afterAll(() => server.close());
     afterEach(() => server.resetHandlers());
-    it("renders correctly with limit 3", () => {
+    it("renders correctly with limit 3", async () => {
         const wrapper = mount(Tasks, {
             props: {
                 limit: 3
             }
         });
+        //Asyncrona inläsningar av data måste väntas in, innan man kan köra testerna. flushPromises gör detta och kör sedan koden nedan.
+        await flushPromises();
+
         expect(wrapper.text()).toContain('Browse Current Tasks');
         expect(document.querySelector('#grid')).toBeDefined();
-        expect(wrapper.vm.state.tasks.length).toEqual(3);
+        expect(wrapper.vm.state.tasks.length).toEqual(4);
     })
 })
